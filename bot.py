@@ -4,7 +4,7 @@ from telegram import Bot
 
 # === Config ===
 TELEGRAM_TOKEN = '8427501495:AAGeFvcNR00yYJ2fapNPnW9zp63csMzeuMg'
-CHAT_ID = 1459051152
+CHAT_ID = -1002744054235
 COIN_ID = 'ben-pasternak'  # CoinGecko ID for $LAUNCHCOIN
 
 bot = Bot(token=TELEGRAM_TOKEN)
