@@ -126,7 +126,7 @@ async def send_price_loop():
             await bot.send_message(chat_id=CHAT_ID, text=message)
         else:
             print("⚠️ Could not fetch price.")
-        await asyncio.sleep(60)  # Wait 1 minute before next update
+        await asyncio.sleep(20)  # Wait 1 minute before next update
 
 # ✅ Entry point
 if __name__ == "__main__":
